@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto:ital@1&display=swap');
 
 .App {
   text-align: center;
@@ -19,10 +18,6 @@
 
 .descripcion {
   text-align: center;
-}
-
-.puesto {
-  font-weight: bold;
 }
 
 .contacto li {

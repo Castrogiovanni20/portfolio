@@ -17,12 +17,12 @@ function App() {
         <Row>
           <Col md={{span: 10, offset: 1}}>
             <Image src={profile} height="200" width="200" roundedCircle className="profile"/>
-            <h1> Hola, soy Ramiro Castrogiovanni</h1>
+            <h1> Hola, soy <strong>Ramiro Castrogiovanni</strong></h1>
             <h2 className="puesto"> Software developer </h2>
             <br/>
-            <p className="descripcion">Actualmente me encuentro cursando el último cuatrimestre de la carrera Analista de Sistemas en el Instituto Tecnológico ORT. En cuanto a lo laboral me desempeño como EDI Regional Developer, desarrollando y testeando procesos de integración con EDI (Electronic Data Interchange), en Kuehne + Nagel para América.
+            <p className="descripcion">Actualmente me encuentro cursando el último cuatrimestre de la carrera Analista de Sistemas en el Instituto Tecnológico ORT. En cuanto a lo laboral me desempeño como EDI Regional Developer, desarrollando y testeando procesos de integración con EDI (Electronic Data Interchange), en Kuehne + Nagel para paises de América.
             </p> 
-            <p className="descripcion">Este año junto a 2 socios fundamos un emprendimiento en el que realizamos desarrollo de Software (web y mobile) a medida.</p>
+            <p className="descripcion">En 2020 junto a 2 socios fundamos un emprendimiento en el que realizamos desarrollo de Software (web y mobile) a medida.</p>
             
             <br/>
           </Col>
@@ -39,16 +39,64 @@ function App() {
           <Col md="12">
             <div className="skills">
               <div style={{ width: 150, height: 150, display: "inline-block", marginLeft: "5vh" }}>
-                <CircularProgressbar text={"Java"} value={80} />
+                <CircularProgressbar text={"Java"} value={80} strokeWidth="4" 
+                  styles={{
+                      text: {
+                        fill: '#fff',
+                        fontSize: '20px'
+                      },
+                      trail: {
+                        stroke: '#ffffff'
+                      },
+                      path: {
+                        stroke: 'rgba(21,127,251)'
+                      }
+                    }}/>
               </div>    
               <div style={{ width: 150, height: 150, display: "inline-block", marginLeft: "5vh" }}>
-                <CircularProgressbar text={"Android"} value={70} />
+                <CircularProgressbar text={"Android"} value={70} strokeWidth="4" 
+                  styles={{
+                    text: {
+                      fill: '#fff',
+                      fontSize: '20px'
+                    },
+                    trail: {
+                      stroke: '#ffffff'
+                    },
+                    path: {
+                      stroke: 'rgba(21,127,251)'
+                    }
+                  }}/>
               </div> 
               <div style={{ width: 150, height: 150, display: "inline-block", marginLeft: "5vh" }}>
-                <CircularProgressbar text={"Node.js"} value={85} />
+                <CircularProgressbar text={"Node.js"} value={80} strokeWidth="4" 
+                  styles={{
+                    text: {
+                      fill: '#fff',
+                      fontSize: '20px'
+                    },
+                    trail: {
+                      stroke: '#ffffff'
+                    },
+                    path: {
+                      stroke: 'rgba(21,127,251)'
+                    }
+                  }}/>
               </div> 
               <div style={{ width: 150, height: 150, display: "inline-block", marginLeft: "5vh" }}>
-                <CircularProgressbar text={"React.js"} value={50} />
+                <CircularProgressbar text={"React.js"} value={60} strokeWidth="4" 
+                  styles={{
+                    text: {
+                      fill: '#fff',
+                      fontSize: '20px'
+                    },
+                    trail: {
+                      stroke: '#ffffff'
+                    },
+                    path: {
+                      stroke: 'rgba(21,127,251)'
+                    }
+                  }}/>
               </div>     
             </div>
           </Col>
