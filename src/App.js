@@ -5,7 +5,7 @@ import { AiOutlineMail, AiOutlineFilePdf } from "react-icons/ai";
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import emoji from 'react-easy-emoji'
-import profile from './descarga.png';
+import profile from './perfil.png';
 import cv from './CV_CastrogiovanniRamiro.pdf'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,12 +18,11 @@ function App() {
           <Col md={{span: 10, offset: 1}}>
             <Image src={profile} height="200" width="200" roundedCircle className="profile"/>
             <h1> Hola, soy <strong>Ramiro Castrogiovanni</strong></h1>
-            <h2 className="puesto"> Software developer </h2>
+            <h2 className="puesto"> Software Developer </h2>
             <br/>
             <p className="descripcion">Actualmente me encuentro cursando el último cuatrimestre de la carrera Analista de Sistemas en el Instituto Tecnológico ORT. En cuanto a lo laboral me desempeño como EDI Regional Developer, desarrollando y testeando procesos de integración con EDI (Electronic Data Interchange), en Kuehne + Nagel para paises de América.
             </p> 
             <p className="descripcion">En 2020 junto a 2 socios fundamos un emprendimiento en el que realizamos desarrollo de Software (web y mobile) a medida.</p>
-            
             <br/>
           </Col>
         </Row>
@@ -42,11 +41,11 @@ function App() {
                 <CircularProgressbar text={"Java"} value={80} strokeWidth="4" 
                   styles={{
                       text: {
-                        fill: '#fff',
+                        fill: 'black',
                         fontSize: '20px'
                       },
                       trail: {
-                        stroke: '#ffffff'
+                        stroke: '3e4349'
                       },
                       path: {
                         stroke: 'rgba(21,127,251)'
@@ -57,11 +56,11 @@ function App() {
                 <CircularProgressbar text={"Android"} value={70} strokeWidth="4" 
                   styles={{
                     text: {
-                      fill: '#fff',
+                      fill: 'black',
                       fontSize: '20px'
                     },
                     trail: {
-                      stroke: '#ffffff'
+                      stroke: '3e4349'
                     },
                     path: {
                       stroke: 'rgba(21,127,251)'
@@ -72,11 +71,11 @@ function App() {
                 <CircularProgressbar text={"Node.js"} value={80} strokeWidth="4" 
                   styles={{
                     text: {
-                      fill: '#fff',
+                      fill: 'black',
                       fontSize: '20px'
                     },
                     trail: {
-                      stroke: '#ffffff'
+                      stroke: '3e4349'
                     },
                     path: {
                       stroke: 'rgba(21,127,251)'
@@ -87,11 +86,11 @@ function App() {
                 <CircularProgressbar text={"React.js"} value={60} strokeWidth="4" 
                   styles={{
                     text: {
-                      fill: '#fff',
+                      fill: 'black',
                       fontSize: '20px'
                     },
                     trail: {
-                      stroke: '#ffffff'
+                      stroke: '3e4349'
                     },
                     path: {
                       stroke: 'rgba(21,127,251)'
@@ -143,7 +142,7 @@ function App() {
         <Row>
           <Col md={{span: 8, offset: 2}}>
             <div className="footer">
-              <p>Powered by { emoji('👨‍💻') } Ramiro Castrogiovanni </p>
+              <p>{`<Powered by`} { emoji('👨‍💻') }{` Ramiro Castrogiovanni/>`} </p>
             </div>
           </Col>
         </Row>
