@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto:ital@1&display=swap');
+
+.App {
+  text-align: center;
+  background-color:white;
+  color: black;
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+
+.profile {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+.contacto li {
+  display: inline;
+  text-align: center;
+  margin-left: 5vh;
+}
+
+.contacto {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding-right: 10vh;
+
+}
+
+.footer {
+  text-align: center;
+}
+
+.skills{
+  display: inline;
+}
+
+a.linkedin:hover{
+  border-radius: 10px;
+  padding: 20px;
+}
